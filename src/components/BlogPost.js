@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import "../styles/Blogpost.css";
-import { useNavigate } from "react-router-dom";
 
 function BlogPost(props) {
-  let navigate = useNavigate();
   const location = useLocation();
   const [blogpost, setBlogpost] = useState({});
   useEffect(() => {

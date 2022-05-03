@@ -1,17 +1,17 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../styles/Login.css";
 
 function Login(props) {
-  const [errorMessages, setErrorMessages] = useState({});
-  const [isSubmitted, setIsSubmitted] = useState(false);
+  // const [errorMessages, setErrorMessages] = useState({});
+  // const [isSubmitted, setIsSubmitted] = useState(false);
 
   let navigate = useNavigate();
 
-  const renderErrorMessage = (name) =>
-    name === errorMessages.name && (
-      <div className="error">{errorMessages.message}</div>
-    );
+  // const renderErrorMessage = (name) =>
+  //   name === errorMessages.name && (
+  //     <div className="error">{errorMessages.message}</div>
+  //   );
 
   const handleSubmit = (event) => {
     event.preventDefault();
