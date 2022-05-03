@@ -1,0 +1,60 @@
+.Login,
+.Register {
+  background-color: #fff;
+  max-width: 40rem;
+  margin: 10rem auto;
+  padding: 5rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px 10px rgba(255, 255, 255, 0.1);
+}
+
+.form-field {
+  /* margin: 0 auto; */
+  /* text-align: left; */
+  margin-bottom: 3.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.4rem;
+}
+
+label {
+  font-size: 1.6rem;
+  color: #002400;
+}
+
+.form-field input {
+  font-size: 1.6rem;
+  padding: 0.4rem;
+  border-top: none;
+  border-right: none;
+}
+
+.form-field input:focus {
+  outline: #002400 inset 2px;
+}
+
+form button {
+  margin: 0 auto;
+  margin-top: 8.2rem;
+  display: block;
+  padding: 1rem 4.8rem;
+  font-size: 1.8rem;
+  background-color: #002400;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.15);
+  text-transform: uppercase;
+}
+
+form button:hover {
+  box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  background-color: #013d01;
+}
+
+form button:active {
+  box-shadow: 3px 5px 3px rgba(0, 0, 0, 0);
+  background-color: #011801;
+}

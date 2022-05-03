@@ -1,0 +1,100 @@
+.Blog {
+  margin-top: 3.6rem;
+  color: #002400;
+}
+
+.Blog h1 {
+  text-align: center;
+}
+
+.Blogposts {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+  font-size: 1.6rem;
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  border: #caffca 1px solid;
+  border-radius: 5px;
+  padding: 1.6rem;
+}
+
+.blog-click:hover {
+  cursor: pointer;
+  border: #1eeb1e 1px solid;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.blog-click:active {
+  border: #00ff00 1px solid;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0);
+}
+
+.title {
+  text-align: left;
+}
+
+.text {
+  color: #2c5d2c;
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+.btn {
+  padding: 0.6rem 1.8rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.025);
+}
+
+.btn-del {
+  background-color: rgb(236, 5, 5);
+  color: rgb(252, 223, 223);
+}
+
+.btn-del:hover {
+  cursor: pointer;
+  background-color: rgb(255, 8, 8);
+  color: white;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-del:active {
+  background-color: rgb(207, 5, 5);
+  color: rgb(189, 184, 184);
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0);
+}
+
+.btn-update,
+.btn-comment {
+  background-color: #dbd2e0;
+  color: #0b080c;
+}
+
+.btn-comment:hover,
+.btn-update:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.05);
+  background-color: #e4d9eb;
+  color: #312b35;
+}
+
+.btn-comment:active,
+.btn-update:hover {
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0);
+  background-color: #d3bfdd;
+  color: black;
+}
+
+.edit-btns-box {
+  display: flex;
+  gap: 2.4rem;
+}
