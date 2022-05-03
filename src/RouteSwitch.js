@@ -17,7 +17,7 @@ const RouteSwitch = () => {
   };
 
   return (
-    <BrowserRouter basename="https://rafaelsilva316.github.io/blog-frontend/">
+    <BrowserRouter basename="/blog-frontend/">
       <Navbar user={user} logUser={logUser}></Navbar>
       <Routes>
         <Route path="/" element={<App />} />
